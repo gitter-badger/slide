@@ -39,7 +39,6 @@ helpers do
 
   def presen_img(name, option = {})
     path = current_page.path
-    p path
     image_tag "#{path[0...path.rindex('.')]}/#{name}", option
   end
 end
@@ -67,7 +66,7 @@ configure :build do
   # activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Or use a different image path
   # set :http_path, "/Content/images/"

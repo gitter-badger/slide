@@ -15,8 +15,8 @@ html lang="ja"
 					script[type="text/template"]
 						== yield
 
-		script src="/bower_components/reveal.js/lib/js/head.min.js"
-		script src="/bower_components/reveal.js/js/reveal.min.js"
+		script src="../bower_components/reveal.js/lib/js/head.min.js"
+		script src="../bower_components/reveal.js/js/reveal.min.js"
 
 		javascript:
 			Reveal.initialize({
@@ -29,11 +29,11 @@ html lang="ja"
 				transition: 'default', // default/cube/page/concave/zoom/linear/fade/none
 
 				dependencies: [
-					{ src: '/bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: '/bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '/bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '/bower_components/highlightjs/highlight.pack.js', async: true, callback: function() { hljs.configure({classPrefix: 'hljs-'}); hljs.initHighlightingOnLoad(); } },
-					{ src: '/bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: '/bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					{ src: '../bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../bower_components/highlightjs/highlight.pack.js', async: true, callback: function() { hljs.configure({classPrefix: 'hljs-'}); hljs.initHighlightingOnLoad(); } },
+					{ src: '../bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '../bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
 			});
