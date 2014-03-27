@@ -1,0 +1,26 @@
+{
+  "name": "leko.github.io",
+  "version": "0.0.0",
+  "authors": [
+    "Leko <leko.noor@gmail.com>"
+  ],
+  "keywords": [
+    "leko",
+    "github",
+    "presen"
+  ],
+  "license": "MIT",
+  "homepage": "http://leko.jp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "source/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "~2.6.1",
+    "highlightjs": "~8.0.0"
+  }
+}

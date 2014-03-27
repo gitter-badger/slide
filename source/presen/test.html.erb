@@ -1,0 +1,136 @@
+---
+title: テストすらいど
+---
+
+## test slide
+created by [Leko](https://github.com/Leko)
+
+********************
+
+## structure
+```
+source/
+├── bower_components
+│   ├── highlightjs
+│   └── reveal.js
+├── images
+│   └── presen
+├── layouts
+│   ├── layout.slim
+│   └── presen.slim
+├── presen
+│   └── test.html.erb <= slide file here
+└── stylesheets
+    └── presen.scss
+```
+
+********************
+
+## dependencies
+
+---
+
+### reveal.js
+http://lab.hakim.se/reveal-js/#/
+
+<%= presen_img 'revealjs.png' %>
+
+---
+
+### Markdown
+https://daringfireball.net/projects/markdown/
+
+<%= presen_img 'markdown.png', :width => '50%' %>
+
+---
+
+### Bower
+https://github.com/bower/bower
+
+<%= presen_img 'bower.png' %>
+
+---
+
+### middleman
+http://middlemanapp.com/
+
+<%= presen_img 'middleman.png' %>
+
+---
+
+### font awesome
+http://fortawesome.github.io/Font-Awesome/
+
+<%= presen_img 'font-awesome.png' %>
+
+********************
+
+
+## Theme
+
+---
+
+### slide
+**soralized**
+
+[reveal.js - The HTML Presentation Framework](http://lab.hakim.se/reveal-js/#/themes)
+
+---
+
+
+### syntax highlight
+**solarized_dark**
+
+[highlight.js test](http://highlightjs.org/static/test.html)
+
+---
+
+### layout(slim)
+```slim
+body
+  .reveal
+    .slides
+      section[data-markdown data-separator="\n\*\*\*\n$" data-vertical="\n---\n$"]
+        script[type="text/template"]
+          == yield
+
+```
+
+---
+
+### horizontal,vertical slide
+
+```markdown
+\## slide1
+
+\********************
+
+\## slide2
+
+\---
+
+\### slide2-2
+```
+
+********************
+
+## Font Awesome
+
+---
+
+## <%= fa('question-circle') %> middleman helper
+
+```ruby
+<%%= fa('question-circle') %> #=> <%= fa('question-circle') %>
+```
+
+********************
+
+## TODO
+- Deploy `gh-pages` branch
+- Move to config.rb reveal.js config 
+
+********************
+
+## fin.
+<%= link_to fa('github') + ' repository', 'https://github.com/Leko/leko.github.com' %>

@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+@import "font-awesome";
+@import "../bower_components/reveal.js/css/reveal.min.css";
+@import "../bower_components/reveal.js/css/theme/solarized.css";
+
+// syntax highlight theme
+@import "../bower_components/highlightjs/styles/solarized_dark.css";
+
+// overwride reveal default style
+.reveal {
+	.fa {
+		font-style: normal !important;
+		font-family: FontAwesome !important;
+	}
+
+	code {
+		font-family: 'Source Code Pro';
+	}
+}
