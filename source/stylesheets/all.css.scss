@@ -10,6 +10,10 @@
 
 // overwride reveal default style
 .reveal {
+	img {
+		border: 0 !important;
+	}
+
 	.fa {
 		font-style: normal !important;
 		font-family: FontAwesome !important;
