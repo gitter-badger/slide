@@ -1,0 +1,99 @@
+/*
+Syntax error: Undefined mixin 'bodyBackground'.
+        on line 8 of /Users/leko/work/products/slide/source/bower_components/reveal.js/css/theme/template/theme.scss, in `bodyBackground'
+        from line 8 of /Users/leko/work/products/slide/source/bower_components/reveal.js/css/theme/template/theme.scss
+
+3: /*********************************************
+4:  * GLOBAL STYLES
+5:  *********************************************\/
+6: 
+7: body {
+8: 	@include bodyBackground();
+9: 	background-color: $backgroundColor;
+10: }
+11: 
+12: .reveal {
+13: 	font-family: $mainFont;
+
+Backtrace:
+/Users/leko/work/products/slide/source/bower_components/reveal.js/css/theme/template/theme.scss:8:in `bodyBackground'
+/Users/leko/work/products/slide/source/bower_components/reveal.js/css/theme/template/theme.scss:8
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/root_node.rb:20:in `render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/engine.rb:315:in `_render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.18/lib/sass/engine.rb:262:in `render'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/renderers/sass.rb:66:in `evaluate'
+/Library/Ruby/Gems/2.0.0/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/core_extensions/rendering.rb:280:in `render_individual_file'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/core_extensions/rendering.rb:157:in `render_template'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/sitemap/resource.rb:143:in `block in render'
+/Library/Ruby/Gems/2.0.0/gems/activesupport-3.2.17/lib/active_support/notifications.rb:125:in `instrument'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/util.rb:42:in `instrument'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/application.rb:215:in `instrument'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/sitemap/resource.rb:16:in `instrument'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/sitemap/resource.rb:114:in `render'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/core_extensions/request.rb:256:in `process_request'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/core_extensions/request.rb:206:in `block in call!'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/core_extensions/request.rb:205:in `catch'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/core_extensions/request.rb:205:in `call!'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/core_extensions/request.rb:191:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.5.2/lib/rack/builder.rb:138:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.5.2/lib/rack/urlmap.rb:65:in `block in call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.5.2/lib/rack/urlmap.rb:50:in `each'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.5.2/lib/rack/urlmap.rb:50:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.5.2/lib/rack/lint.rb:49:in `_call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.5.2/lib/rack/lint.rb:37:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-1.5.2/lib/rack/builder.rb:138:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rack-test-0.6.2/lib/rack/mock_session.rb:30:in `request'
+/Library/Ruby/Gems/2.0.0/gems/rack-test-0.6.2/lib/rack/test.rb:230:in `process_request'
+/Library/Ruby/Gems/2.0.0/gems/rack-test-0.6.2/lib/rack/test.rb:57:in `get'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/cli/build.rb:251:in `render_to_file'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/cli/build.rb:214:in `block in execute!'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/cli/build.rb:211:in `each'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/cli/build.rb:211:in `execute!'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/cli/build.rb:126:in `invoke!'
+/Library/Ruby/Gems/2.0.0/gems/thor-0.19.1/lib/thor/actions.rb:94:in `action'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/cli/build.rb:68:in `build'
+/Library/Ruby/Gems/2.0.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+/Library/Ruby/Gems/2.0.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+/Library/Ruby/Gems/2.0.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+/Library/Ruby/Gems/2.0.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/cli.rb:77:in `method_missing'
+/Library/Ruby/Gems/2.0.0/gems/thor-0.19.1/lib/thor/command.rb:29:in `run'
+/Library/Ruby/Gems/2.0.0/gems/thor-0.19.1/lib/thor/command.rb:126:in `run'
+/Library/Ruby/Gems/2.0.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+/Library/Ruby/Gems/2.0.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+/Library/Ruby/Gems/2.0.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/lib/middleman-core/cli.rb:22:in `start'
+/Library/Ruby/Gems/2.0.0/gems/middleman-core-3.2.2/bin/middleman:18:in `<top (required)>'
+/usr/bin/middleman:23:in `load'
+/usr/bin/middleman:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined mixin 'bodyBackground'.\A         on line 8 of /Users/leko/work/products/slide/source/bower_components/reveal.js/css/theme/template/theme.scss, in `bodyBackground'\A         from line 8 of /Users/leko/work/products/slide/source/bower_components/reveal.js/css/theme/template/theme.scss\A \A 3: /*********************************************\A 4:  * GLOBAL STYLES\A 5:  *********************************************/\A 6: \A 7: body {\A 8: 	@include bodyBackground();\A 9: 	background-color: $backgroundColor;\A 10: }\A 11: \A 12: .reveal {\A 13: 	font-family: $mainFont;"; }
