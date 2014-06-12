@@ -10,6 +10,9 @@
 
 // overwride reveal default style
 .reveal {
+	h3 {
+		line-height: 1.3em;
+	}
 	img {
 		border: 0 !important;
 	}
@@ -21,5 +24,21 @@
 
 	code {
 		font-family: 'Source Code Pro';
+	}
+
+	ul.lstn {
+		list-style-type: none;
+	}
+
+	li {
+		margin-top: 15px;
+	}
+
+	p {
+		margin: 25px 25px;
+	}
+
+	.tal {
+		text-align: left;
 	}
 }
